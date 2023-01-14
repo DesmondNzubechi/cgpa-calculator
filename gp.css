@@ -1,0 +1,332 @@
+/*====== STYLING BODY ======*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+   background:#fff;
+}
+body > div{
+    margin: 20px;
+    border-radius: 15px;
+    background-color:rgb(230, 227, 227);
+    position: relative;
+    width: fit-content;
+
+
+}
+/*======STYLING HEADER START========*/
+header{
+    /*
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+padding: 10px;
+background: whitesmoke;
+margin: 0 !important;
+*/
+display: flex;
+justify-content: center;
+}
+header div h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+    box-shadow: inset 2px 2px 5px gray, inset -5px -5px 10px white;
+    border-radius: 5px;
+    margin: 10px 20px;
+    padding: 5px 20px;
+    font-weight: bolder !important;
+}
+
+/*======STYLING HEADER END========*/
+.main{
+   height: 100%;
+}
+
+/*======STYLING COURSE, GRADE AND CREDIT UNIT SECTION START========*/
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+   
+}
+.flex > div{
+    margin: 0 20px;
+    box-shadow: 2px 2px 5px white, -2px -2px 5px rgb(199, 216, 199);
+    border-radius: 5px;
+    display: block;
+    justify-content: center;
+    padding: 10px;
+    max-width: 100px;
+   
+}
+.flex input{
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    position: relative;
+    font-weight: 900;
+    max-width: 80px;
+    overflow-x: hidden;
+
+}
+.flex h2{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0 !important;
+        margin: 0 !important;
+}
+
+select{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+option{
+   
+    background: none;
+}
+/*======COURSE, GRADE AND CREDIT UNIT SECTION END========*/
+
+/*==========STYLING ADD BUTTON START========*/
+.submit{
+    float: right;
+    margin: 0 60px;
+    min-width: 100px;
+    text-align: center;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px white, -5px -5px 10px white;
+    padding: 10px;
+    background: green;
+    color: white;
+}
+.submit:hover{
+    background-color: lightgreen;
+    color: black;
+}
+/*==========STYLING ADD BUTTON END========*/
+
+/*==========STYLING SELECTED COURSE START========*/
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 20px 20px 20px;
+}
+.detail > div  >h3{
+    margin: 0 20px;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 5px lightgrey, -3px -3px 5px white;
+    padding: 8px !important;
+    border-radius: 5px;
+ 
+}
+.courseAdded{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.courseAdded > div{
+    min-width: 100px;
+    margin: -25px 20px;
+}
+.courseAdded > div > h5{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.totalGp{
+    display: flex;
+    justify-content: space-around;
+   margin: 20px 50px 20px 50px;
+    background-color: rgb(0, 255, 128);
+    border-radius: 10px;
+    padding:  0 10px;
+}
+.totalGp h3{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.gp{
+    background-color: rgb(234, 241, 237);
+    padding: 0 15px;
+    border-radius: 5px;
+}
+
+/*==========STYLING SELECTED COURSE END========*/
+
+/*==========STYLING TOTAL POINT AND TOTAL CREDIT UNIT START========*/
+
+.gpunit{
+    box-shadow: 2px 2px 3px white, -2px -2px 3px lightgray;
+    margin: 10px 50px;
+    border-radius: 10px;
+    padding: 5px 2px;
+}
+.unit{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+   
+   
+}
+.point{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+   
+}
+.point h3, .unit h3{
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+/*==========STYLING TOTAL POINT AND TOTAL CREDIT UNIT END========*/
+
+/*.calc{
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+   margin-right: 50px;
+}
+.calc > button{
+    border: none;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    box-shadow: 2px 2px 5px grey, -2px -2px 5px gray;
+    font-weight: 900;
+    border-radius: 5px;
+    background-color: rgb(9, 247, 116);
+    margin: 10px 0;
+}
+.calc > button:hover{
+    color: white;
+    background-color: gray;
+}
+*/
+.creditpoint{
+    font-size: 20px;
+    font-weight: 700;
+}
+/*==========STYLING DELETE BUTTON START========*/
+
+.del{
+    border: none;
+    outline: none;
+    font-size: large;
+    font-weight: 900;
+    color: white;
+    background-color: red;
+    margin: 0 20px;
+    padding: 0 10px;
+    border-radius: 5px;
+
+
+}
+.del:hover{
+    color: red;
+    background-color:white;
+    transition: .5s;
+}
+/*==========STYLING DELETE BUTTON END========*/
+
+
+/*==========STYLING CLEAR ALL BUTTON START========*/
+
+.clear{
+    margin: -10px 10px 10px 50px;
+}
+.clearBtn{
+    background-color: red;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 550;
+}
+.dev p{
+    text-align: center;
+    margin: 25px 10px 3px 10px;
+    opacity: 50%;
+}
+/*==========STYLING CLEAR ALL BUTTON END========*/
+
+
+/*==========MAKING IT RESPONSIVE ON A SMALL SCREEN USING MEDIA QUERY START========*/
+
+@media (max-width: 768px) {
+    header > div h1{
+     
+        font-size: 20px;
+    }
+    .flex h2{
+        font-size: 12px;
+  
+        
+    }
+    .flex > div{
+        margin: 0 5px;
+    }
+    select,  input{
+        font-size: 12px;
+    }
+    body > div{
+        padding: 0 !important;
+    }
+    .detail > div  >h3{
+        margin: 0 10px;
+        text-transform: uppercase;
+        box-shadow: 3px 3px 5px lightgrey, -3px -3px 5px white;
+        padding: 8px !important;
+        border-radius: 5px;
+        font-size: 13px !important;
+     
+    }
+    .submit{
+        padding: 5px 0 !important;
+        font-size: 15px;
+    }
+    .point h3, .unit h3{
+        text-transform: uppercase;
+       font-size: 15px;
+    }
+    .courseAdded > div > h5{
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .courseAdded > div{
+        min-width: 80px;
+        margin: -15px 7px;
+    }
+    .creditpoint{
+        font-size: 15px;
+    }
+    .del{
+        font-size: 15px;
+    }
+    .totalGp h3{
+ font-size: 15px;
+    }
+}
+
+/*==========MAKING IT RESPONSIVE ON A SMALL SCREEN USING MEDIA QUERY END========*/

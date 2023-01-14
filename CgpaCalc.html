@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>   
+<head>
+    <link rel="stylesheet" type="text/css" href="gp.css" />
+    <meta charset="utf-8" />
+    <meta name="viewpot" content="width=device-width, initial-scale=1" />
+    <title>CGPA CALCULATOR</title>
+</head>
+<body>
+    <div>
+        <!--=========CGPA CALC HEADER START======-->
+    <header>
+        <div>
+            <h1>CGPA CALCULATOR</h1>
+        </div>
+    </header>
+      <!--=========CGPA CALC HEADER END======-->
+    <div class="main">
+        <!--================COURSES, GRADE AND CREDIT UNIT SECTION START==============-->
+        <div class="flex">
+            <div>
+                <h2>Course</h2>
+                <div>
+                    <input type="text" placeholder="eg:feg101" class="course" name="Course name">
+                </div>
+            </div>
+            <div>
+                <h2>Grade</h2>
+                    <select  class="grade">
+                        <option value="SELECT">Select</option>
+                        <option value="5" class="best">
+                            A</option>
+                        <option value="4">B</option>
+                        <option value="3">C</option>
+                        <option value="2">D</option>
+                        <option value="1">E</option>
+                        <option value="0">F</option>
+                    </select>
+                </div>
+                
+            <div>
+                <h2>Unit</h2>
+                <select class="unit">
+                    <option value="SELECT">Select</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+        </div>
+        <!--================COURSES, GRADE AND CREDIT UNIT SECTION END==============-->
+
+        <!--=========ADD BUTTON START==============-->
+            <button type="button" class="submit">Add</button>
+               <!--=========ADD BUTTON END==============-->
+            <div>
+
+            <div class="details">
+                <div class="detail">
+               <div>
+                <h3>Course</h3>
+               
+               </div>
+               <div>
+                <h3>Grade</h3>
+               
+               </div>
+               <div>
+                <h3>Credit Unit</h3>
+              
+               </div>
+                </div>
+               </div>
+               <div class="courses">
+               
+                   </div>
+               </div>
+
+               <!--==========TOTAL POINT AND TOTAL CREDIT UNIT SECTION START======-->
+               <div class="gpunit"> 
+                <div class="unit">
+                    <div> <h3 class="tT">Total  Unit</h3></div>
+                    <div> <h3 class="totalUnit">0</h3></div>
+                    </div>
+                    <hr>
+                   <div class="point">
+                   <div> <h3>Total Point</h3></div>
+                   <div> <h3 class="totalPoint">0</h3></div>
+                   </div>
+               </div>
+                <!--==========TOTAL POINT AND TOTAL CREDIT UNIT SECTION END======-->
+
+             <!--  <div class="calc"><button class="calculate">Calculate CGPA</button></div>
+             --> 
+
+              <!--==========AVERAGE CGPA SECTION START======-->
+             <div class="average">
+
+            <div class="totalGp">
+                    <div class="avy">
+                        <h3>Average cgpa</h3>
+                    </div>
+                    <div>
+                        <h3 class="gp">0</h3>
+                    </div>
+                   </div>
+                    <!--==========AVERAGE CGPA SECTION END======-->
+             </div>
+             <div class="clear"></div>
+              <!--==========DEVELOPER'S NAME SECTION START======-->
+             <div class="dev">
+                <p><i>Built By </i><strong>Nzubechukwu(B2R)</strong> </p>
+            </div>
+            <!--==========DEVELOPER'S NAME SECTION END======-->
+    </div>
+    
+   <div>
+   </div>
+  
+</div>
+<script src="cgpa.js"></script>
+</body>
+</html>
