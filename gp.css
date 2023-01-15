@@ -5,6 +5,7 @@ body{
     justify-content: center;
    background:#fff;
     overflow-x: hidden;
+    width: fit-content;
 
 }
 body > div{
