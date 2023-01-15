@@ -4,6 +4,8 @@ body{
     display: flex;
     justify-content: center;
    background:#fff;
+    overflow-x: hidden;
+
 }
 body > div{
     margin: 20px;
@@ -11,7 +13,6 @@ body > div{
     background-color:rgb(230, 227, 227);
     position: relative;
     width: fit-content;
-overflow-x: hidden;
 
 }
 /*======STYLING HEADER START========*/
