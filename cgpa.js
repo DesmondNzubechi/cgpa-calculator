@@ -23,8 +23,27 @@ submit.addEventListener('click', () => {
    let grady = grade.value;
 
    //checking if course, grade or unit value is not empty
-  if (getCourseValue === '' || grady === 'SELECT' || unity === 'SELECT') {
+  if (getCourseValue === '' && grady === 'SELECT' && unity === 'SELECT') {
     courses.innerHTML += '';
+    alert('Comrade can you please input course name, select your grade and unit')
+  } else if (getCourseValue === '' && grady === 'SELECT') {
+    courses.innerHTML += '';
+    alert('Kindly input course name and select course grade');
+  } else if (getCourseValue === '' && unity === 'SELECT') {
+    courses.innerHTML += '';
+    alert('Kindly input course name and select course credit unit');
+  } else if (grady === 'SELECT' && unity === 'SELECT') {
+    courses.innerHTML += '';
+    alert('Kindly select course grade and its credit unit');
+  } else if (getCourseValue === '') {
+    courses.innerHTML += '';
+    alert('Kindly input course name');
+  } else if (grady === 'SELECT') {
+    courses.innerHTML += '';
+    alert('Kindly select course grade');
+  } else if (unity === 'SELECT') {
+    courses.innerHTML += '';
+    alert('Kindly select course credit unit');
   } else {
     courses.innerHTML += ` <div class="courseAdded">
     <div>

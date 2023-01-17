@@ -69,7 +69,7 @@ header div h1 {
     background: none;
     outline: none;
     border: none;
-    font-size: 20px !important;
+    font-size: 12px;
    /* position: relative;*/
     font-weight: 900;
 width: 80px;
@@ -100,7 +100,7 @@ option{
 /*==========STYLING ADD BUTTON START========*/
 .submit{
     float: right;
-    margin: 0 60px;
+    margin: 0 60px ;
     min-width: 100px;
     text-align: center;
     font-size: larger;
@@ -290,7 +290,7 @@ option{
         margin: 0 5px;
     }
     select,  input{
-        font-size: 15px !important;
+        font-size: 12px !important;
     }
     body > div{
         padding: 0 !important;
