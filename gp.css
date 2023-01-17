@@ -277,9 +277,8 @@ option{
 /*==========MAKING IT RESPONSIVE ON A SMALL SCREEN USING MEDIA QUERY START========*/
 
 @media (max-width: 768px) {
-    body{
-        padding: 0 50px;
-    }
+   
+  
     header > div h1{
      
         font-size: 20px;
