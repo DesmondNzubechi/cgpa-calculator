@@ -9,7 +9,7 @@ body{
 
 }
 body > div{
-    margin: 20px;
+    margin: 20px 50px;
     border-radius: 15px;
     background-color:rgb(230, 227, 227);
     position: relative;
@@ -62,7 +62,7 @@ header div h1 {
     display: block;
     justify-content: center;
     padding: 10px;
-    width: 100%;
+    max-width: 100px;
    
 }
 .flex input{
@@ -290,7 +290,7 @@ option{
         margin: 0 5px;
     }
     select,  input{
-        font-size: 20px !important;
+        font-size: 15px !important;
     }
     body > div{
         padding: 0 !important;
