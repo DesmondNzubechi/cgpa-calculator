@@ -275,7 +275,7 @@ option{
 
 
 /*==========MAKING IT RESPONSIVE ON A SMALL SCREEN USING MEDIA QUERY START========*/
-
+/*
 @media (max-width: 768px) {
     header > div h1{
      
@@ -290,9 +290,6 @@ option{
         margin: 0 5px;
     }
     select,  input{
-        font-size: 12px;
-    }
-    input[type="text"], select:focus {
         font-size: 16px;
     }
     body > div{
