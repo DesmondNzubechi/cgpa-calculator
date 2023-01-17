@@ -13,7 +13,7 @@ body > div{
     border-radius: 15px;
     background-color:rgb(230, 227, 227);
     position: relative;
-    width: 100%;
+    max-width: fit-content;
 
 }
 /*======STYLING HEADER START========*/
@@ -275,7 +275,7 @@ option{
 
 
 /*==========MAKING IT RESPONSIVE ON A SMALL SCREEN USING MEDIA QUERY START========*/
-/*
+
 @media (max-width: 768px) {
     header > div h1{
      
