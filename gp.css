@@ -69,10 +69,10 @@ header div h1 {
     background: none;
     outline: none;
     border: none;
-    font-size: 16px;
+    font-size: 20px !important;
    /* position: relative;*/
     font-weight: 900;
-
+width: 80px;
     overflow-x: hidden;
 
 }
