@@ -69,10 +69,10 @@ header div h1 {
     background: none;
     outline: none;
     border: none;
-    font-size: 12px;
-    position: relative;
+    font-size: 16px;
+   /* position: relative;*/
     font-weight: 900;
-    max-width: 80px;
+
     overflow-x: hidden;
 
 }
@@ -88,7 +88,7 @@ select{
     border: none;
     outline: none;
     background: none;
-    font-size: 1px;
+    font-size: 16px;
     font-weight: 600;
 }
 option{
